@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Inter:wght@400;600;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  
+    font-family: 'Inter', sans-serif;
+    background-color: #ffd000;
+}
+
+.header{
+    display: flex; 
+}
+.logo{
+    width: 130px;
+    height: auto;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.cardapioNav{
+    width: 100%;
+    display: flex;
+    margin-right: 8rem;
+    align-items: center;
+    flex-direction: column;
+}
+.TitleCardapio{
+    font-size: 3.7rem;
+    color: #003952;
+    font-family: 'Croissant One', cursive, sans-serif;
+}
+.navItems{
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.2rem;
+}
+.itemNav{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000;
+    transition: 0.5s;
+}
+.itemNav:hover{
+    text-decoration:underline; 
+}
+
+
+/* Section Pestiscos */
+.divTitlesItems{
+    display: flex;
+    justify-content: center;
+}
+.titlesItems{
+    font-size: 2.7rem;
+    color: #003952;
+    margin-top: 3%;
+    font-family: 'Croissant One', cursive, sans-serif;
+    /* padding-bottom: 5pex; */
+    text-decoration: underline;
+}
+.divImgPetiscos{
+    display: flex;justify-content: center;
+}
+.imgPetiscos{
+    width: 180px;
+    height: auto;
+}
+
+/* Items Petiscos */
+.divItemsPetiscos{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px dotted #003952;
+}
+.itemCardapio{
+    font-size: 1.2rem;
+    color: #003952;
+    font-weight: 900;
+}
