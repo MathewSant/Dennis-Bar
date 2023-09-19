@@ -7,11 +7,16 @@
 body{
   
     font-family: 'Inter', sans-serif;
+}
+.container-alimentos{
     background-color: #ffd000;
 }
-
+.container-liquidos{
+    background-color: #003952;
+}
 .header{
     display: flex; 
+    background-color: #ffd000;
 }
 .logo{
     width: 130px;
@@ -57,17 +62,50 @@ body{
 .titlesItems{
     font-size: 2.7rem;
     color: #003952;
+    margin-top: 4%;
+    font-family: 'Croissant One', cursive, sans-serif;
+    text-decoration: underline;
+}
+.titlesItemsLiquidos{
+    color: #ffd000;
+    font-size: 2.7rem;
+    margin-top: 4%;
+    font-family: 'Croissant One', cursive, sans-serif;
+    text-decoration: underline;
+}
+.SubtitlesItems{
+    background: #003952;
+    text-align: center;
+    color: #ffd000;
+    font-size: 2rem;
     margin-top: 3%;
     font-family: 'Croissant One', cursive, sans-serif;
-    /* padding-bottom: 5pex; */
-    text-decoration: underline;
+    border-radius: 20px;
+    padding: 5px;
+}
+.SubtitlesItemsDrink{
+    background: #ffd000;
+    text-align: center;
+    color: #003952;
+    font-size: 2rem;
+    margin-top: 3%;
+    font-family: 'Croissant One', cursive, sans-serif;
+    border-radius: 20px;
+    padding: 5px;
+}
+.DivSubtitlesItems,.DivSubtitlesItemsDrink{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .divImgPetiscos{
     display: flex;justify-content: center;
+    margin-top: 1rem;
 }
 .imgPetiscos{
-    width: 180px;
+    width: 230px;
     height: auto;
+border-radius: 10px;
 }
 
 /* Items Petiscos */
@@ -75,10 +113,83 @@ body{
     margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
-    border-bottom: 3px dotted #003952;
+    border-bottom: 5.5px dotted #003952;
 }
+.divItemsDrinks{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 5.5px dotted #ffd000;
+}
+
 .itemCardapio{
-    font-size: 1.2rem;
-    color: #003952;
+    font-size: 1.3rem;
+    color: #000;
     font-weight: 900;
+}
+
+.itemCardapioDrink{
+    font-size: 1.3rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+.itemCardapioObs{
+    display: flex;
+    flex-direction: column;
+}
+
+.obsItem{
+    font-size: 0.80rem;
+    font-weight: 600;
+}
+
+.doseQuartinho{
+    display: flex;
+    flex-direction: column;
+}
+
+.doseQuartinhoDrink{
+    margin-top: 1.72rem;
+}
+@media(max-width:580px){
+    .navItems{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header{      
+        justify-content: center;
+        flex-wrap: wrap;
+
+    }
+    .cardapioNav{
+        margin-right:  0;
+    }
+    .itemCardapio,.itemCardapioDrink{
+        font-size: 1.08rem;
+        margin: 0px 6px 0px 6px ;
+    }
+}
+
+@media(max-width:340px){
+    .TitleCardapio{
+        font-size: 3rem;
+
+    }
+    .itemCardapio,.itemCardapioDrink{
+        font-size: 1rem;
+    
+    }  
+    .divItemsPetiscos{      
+        border-bottom: 4px dotted #003952;
+    }
+    .divItemsDrinks{    
+        border-bottom: 4px dotted #ffd000;
+    }
+    .SubtitlesItems{   
+        font-size: 1.6rem;
+    }
+    .SubtitlesItemsDrink{
+        font-size: 1.6rem;
+    }
 }
