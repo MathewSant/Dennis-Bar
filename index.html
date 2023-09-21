@@ -15,18 +15,17 @@
         <div class="cardapioNav">
         <h1 class="TitleCardapio">Cardárpio</h1>
         <nav class="navItems">
-            <a class="itemNav" href="">Petiscos</a>
-            <a class="itemNav" href="">Peixes</a>
-            <a class="itemNav" href="">Caldos</a>
-            <a class="itemNav" href="">Refeições</a>
-            <a class="itemNav" href="">Bebidas</a>
-            <a class="itemNav" href="">Outros</a>
+            <a class="itemNav" href="#Petiscos">Petiscos</a>
+            <a class="itemNav" href="#Peixes">Peixes</a>
+            <a class="itemNav" href="#Caldos">Caldos</a>
+            <a class="itemNav" href="#Bebidas">Bebidas</a>
+            <a class="itemNav" href="#Outros">Outros</a>
 
         </nav>
     </div>
     </header>
     <div class="container-alimentos">
-    <section class="petiscos">
+    <section id="Petiscos" class="petiscos">
         <div class="divTitlesItems">
         <h1 class="titlesItems">Petiscos</h1>
     </div>
@@ -176,7 +175,7 @@
 </section>
 
 <section class="Outros">
-    <div class="divTitlesItems">
+    <div id="Outros" class="divTitlesItems">
         <h1 class="titlesItems">Outros</h1>
     </div>
     <div class="divImgPetiscos">
@@ -191,7 +190,7 @@
     <p class="itemCardapio">R$40,00</p>
 </div>
 
-<div class="DivSubtitlesItems">
+<div id="Peixes" class="DivSubtitlesItems">
     <h1 class="SubtitlesItems">Peixes</h1>
 </div>
 <div class="divItemsPetiscos">
@@ -204,6 +203,9 @@
 </div>
 <div class="divItemsPetiscos">
     <p class="itemCardapio itemCardapioObs">Saramunete<span class="obsItem">(Porção com 3 unidades)</span></p>
+    <div  class="divImgPetiscos">
+        <img style="position: absolute; z-index: 1; width: 150px;" class="imgPetiscos" src="./images/fish.svg" alt="">
+     </div>
     <p class="itemCardapio">R$45,00</p>
 </div>
 <div class="divItemsPetiscos">
@@ -223,7 +225,7 @@
     <p class="itemCardapio">R$40,00</p>
 </div>
 <div class="DivSubtitlesItems">
-    <h1 class="SubtitlesItems">Caldos</h1>
+    <h1 id="Caldos" class="SubtitlesItems">Caldos</h1>
 </div>
 <div class="divItemsPetiscos">
     <p class="itemCardapio">Polvo</p>
@@ -280,7 +282,7 @@
 </div>
 <div class="container-liquidos">
     <div class="divTitlesItems">
-        <h1 class="titlesItemsLiquidos">Bebidas</h1>    
+        <h1 id="Bebidas" class="titlesItemsLiquidos">Bebidas</h1>    
     </div>
     <div class="divImgPetiscos">
         <img class="imgPetiscos" src="./images/drinks.svg" alt="">
@@ -374,6 +376,9 @@
     <div class="DivSubtitlesItemsDrink">
         <h1 class="SubtitlesItemsDrink">Whiskys</h1>
     </div>
+    <div  class="divImgPetiscos">
+        <img class="imgPetiscos" src="./images/whisky.svg" alt="">
+     </div>
     <div class="divItemsDrinks">
         <p class="itemCardapioDrink">Old Parr</p>
         <p class="itemCardapioDrink">R$20,00</p>
@@ -386,6 +391,7 @@
         <p class="itemCardapioDrink">White Horse</p>
         <p class="itemCardapioDrink">R$10,00</p>
     </div>
+
     <div class="divItemsDrinks">
         <p class="itemCardapioDrink">Black & White</p>
         <p class="itemCardapioDrink">R$7,00</p>
@@ -401,6 +407,9 @@
     <div class="DivSubtitlesItemsDrink">
         <h1 class="SubtitlesItemsDrink">Destilados</h1>
     </div>
+    <div  class="divImgPetiscos">
+        <img class="imgPetiscos" src="./images/allDrinks.svg" alt="">
+     </div>
     <div class="divItemsDrinks">
         <p class="itemCardapioDrink">Campari</p>
         <p class="itemCardapioDrink">R$7,00</p>
@@ -448,10 +457,14 @@
     <div class="DivSubtitlesItemsDrink">
         <h1 class="SubtitlesItemsDrink">Cervejas</h1>
     </div>
+    <div  class="divImgPetiscos">
+        <img class="imgPetiscos" src="./images/beer.svg" alt="">
+     </div>
     <div class="divItemsDrinks">
         <p class="itemCardapioDrink">Heineken 600Ml</p>
         <p class="itemCardapioDrink">R$16,00</p>
     </div>
+
     <div class="divItemsDrinks">
         <p class="itemCardapioDrink">Heineken Long Neck</p>
         <p class="itemCardapioDrink">R$10,00</p>
@@ -551,7 +564,7 @@
         <p class="itemCardapioDrink">Quartinho R$8,00</p>
     </div>
     </div>
-    <div class="divItemsDrinks">
+    <div  class="divItemsDrinks">
         <p class="itemCardapioDrink doseQuartinhoDrink">Pitú</p>
         <div class="doseQuartinho">
         <p class="itemCardapioDrink">Dose R$3,00</p>
@@ -559,5 +572,8 @@
     </div>
     </div>
 </div>
+<!-- <footer style="height: 3rem; background-color: #000;">
+<div>Desenvolvix</div>
+</footer> -->
 </body>
 </html>
